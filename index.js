@@ -1,9 +1,9 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "+";//istediğiniz gibi ayarlayabilirsiniz prefixi
+var prefix = ".";//istediğiniz gibi ayarlayabilirsiniz prefixi
 var statuses = [`Altyapı Videosu İçin youtube.com/@WraithsDev`];
 var timers = 2;
-const owners = ["sahip_id"];//botu kullanmak için sahip_id girmeyi unutmayın
+const owners = ["713778918238322719"];//botu kullanmak için sahip_id girmeyi unutmayın
 
 client.on("ready", () => {
   console.log(`Giriş Yapıldı: ${client.user.tag}`);
@@ -157,4 +157,4 @@ client.on("message", async message => {
   }
 });
 
-client.login(`bottokengir`);
+client.login(`MTI4MzM4MzY4MDMwMzIzOTE4MA.GdpKhf.NIDVnzHd_QJDdJ4lEzhco99iS8tUPCv9ktrAbw`);
